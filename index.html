@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Curso Otimizando com o Gulp</title>
+
+    <link rel="stylesheet" href="dist/assets/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-controller="IndexController">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Curso-Gulp</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Otimizando com o Gulp</h1>
+        <p>Esse é um curso gratuito postado na plataforma Udemy. O Curso chama: "Otimizando com o Gulp".</p>        
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>{{ titulo }}</h2>
+          <img class="img-responsive" src="dist/assets/img/img2.jpg" alt="">
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <img class="img-responsive" src="dist/assets/img/img1.jpg" alt="">
+       </div>
+        <div class="col-md-4">
+            <h2>Heading</h2>
+            <img class="img-responsive" src="dist/assets/img/img3.jpg" alt="">
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <center><p>&copy; 2018 Curso Gulp, Inc.</p></center>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="dist/assets/js/lib.js"></script>
+    <script src="dist/assets/js/app.min.js"></script>
+  </body>
+</html>
